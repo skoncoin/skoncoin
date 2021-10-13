@@ -1,0 +1,22 @@
+[Unit]
+Description=Skoncoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=skoncoincore
+Group=skoncoincore
+
+Type=forking
+PIDFile=/var/lib/skoncoind/skoncoind.pid
+ExecStart=/usr/bin/skoncoind -daemon -pid=/var/lib/skoncoind/skoncoind.pid \
+-conf=/etc/skoncoincore/skoncoin.conf -datadir=/var/lib/skoncoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Skoncoin
+Comment=Skoncoin P2P Cryptocurrency
+Comment[fr]=Skoncoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Skoncoin, eşten eşe kriptografik sanal para birimi
+Exec=skoncoin-qt %u
+Terminal=false
+Type=Application
+Icon=skoncoin128
+MimeType=x-scheme-handler/skoncoin;
+Categories=Office;Finance;
