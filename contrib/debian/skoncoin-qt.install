@@ -1,6 +1,0 @@
-usr/local/bin/skoncoin-qt usr/bin
-share/pixmaps/skoncoin32.xpm usr/share/pixmaps
-share/pixmaps/skoncoin16.xpm usr/share/pixmaps
-share/pixmaps/skoncoin128.png usr/share/pixmaps
-debian/skoncoin-qt.desktop usr/share/applications
-debian/skoncoin-qt.protocol usr/share/kde4/services/
